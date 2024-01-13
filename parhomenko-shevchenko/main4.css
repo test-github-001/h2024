@@ -1,0 +1,1511 @@
+@import url('https://fonts.googleapis.com/css2?family=Hedvig+Letters+Sans&family=Inter:wght@500;600;800;900&family=Lato:ital@0;1&family=Nunito+Sans:opsz,wght@6..12,200&family=Nunito:wght@500&family=Open+Sans:wght@400;500;600&family=Oswald:wght@500&family=PT+Sans&family=Permanent+Marker&family=Pixelify+Sans:wght@500;600&family=Poppins:wght@400;500&family=Roboto:ital,wght@0,300;0,400;0,500;1,300;1,400&family=Saira+Extra+Condensed&family=Single+Day&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Hedvig+Letters+Sans&family=Inter:wght@500;600;800;900&family=Lato:ital@0;1&family=Nunito+Sans:opsz,wght@6..12,200&family=Nunito:wght@500&family=Open+Sans:wght@400;500;600&family=Oswald:wght@500&family=PT+Sans&family=Permanent+Marker&family=Pixelify+Sans:wght@500;600&family=Poppins:wght@400;500&family=Roboto:ital,wght@0,300;0,400;0,500;1,300;1,400&family=Rubik+Doodle+Shadow&family=Saira+Extra+Condensed&family=Single+Day&display=swap');
+
+
+
+
+body {
+    background: var(--primary-color);
+}
+.back-header {
+    background-color: var(--third--color);
+    width: 100%;
+    height: 950px;
+    left: 0%;
+    top: 0%;
+    position: absolute;
+}
+
+.image-header img {
+
+    position: absolute;
+    width: 675px;
+    margin-left: 30%;
+    margin-top: 100px;
+}
+
+.s {
+position:absolute ;
+font-family: 'Hedvig Letters Sans', sans-serif;
+font-family: 'Inter', sans-serif;
+font-family: 'Lato', sans-serif;
+font-family: 'Nunito', sans-serif;
+font-family: 'Nunito Sans', sans-serif;
+font-family: 'Open Sans', sans-serif;
+font-family: 'Oswald', sans-serif;
+font-family: 'Permanent Marker', cursive;
+font-family: 'Pixelify Sans', sans-serif;
+font-family: 'Poppins', sans-serif;
+font-family: 'PT Sans', sans-serif;
+font-family: 'Roboto', sans-serif;
+font-family: 'Saira Extra Condensed', sans-serif;
+font-family: 'Single Day', cursive;
+color: aliceblue;
+font-size: 25px;
+margin-top: 500px;
+margin-left: 23%;
+}
+
+.soup {
+    position:absolute ;
+    font-family: 'Hedvig Letters Sans', sans-serif;
+    font-family: 'Inter', sans-serif;
+    font-family: 'Lato', sans-serif;
+    font-family: 'Nunito', sans-serif;
+    font-family: 'Nunito Sans', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Oswald', sans-serif;
+    font-family: 'Permanent Marker', cursive;
+    font-family: 'Pixelify Sans', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'PT Sans', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Saira Extra Condensed', sans-serif;
+    font-family: 'Single Day', cursive;
+    color: aliceblue;
+    font-size: 25px;
+    margin-top: 535px;
+    margin-left: 26%;
+}
+
+.pip {
+    position:absolute ;
+    font-family: 'Hedvig Letters Sans', sans-serif;
+    font-family: 'Inter', sans-serif;
+    font-family: 'Lato', sans-serif;
+    font-family: 'Nunito', sans-serif;
+    font-family: 'Nunito Sans', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Oswald', sans-serif;
+    font-family: 'Permanent Marker', cursive;
+    font-family: 'Pixelify Sans', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'PT Sans', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Saira Extra Condensed', sans-serif;
+    font-family: 'Single Day', cursive;
+    color: aliceblue;
+    font-size: 25px;
+    margin-top: 570px;
+    margin-left: 34%;
+}
+
+.header input {
+    position: absolute;
+    background-color: transparent;
+    border: none;
+    color: aliceblue;
+    font-family: 'Hedvig Letters Sans', sans-serif;
+    font-family: 'Inter', sans-serif;
+    font-family: 'Lato', sans-serif;
+    font-family: 'Nunito', sans-serif;
+    font-family: 'Nunito Sans', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Oswald', sans-serif;
+    font-family: 'Permanent Marker', cursive;
+    font-family: 'Pixelify Sans', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'PT Sans', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Saira Extra Condensed', sans-serif;
+    font-family: 'Single Day', cursive;
+    font-size: 23px;
+    margin-left: 785px;
+    margin-top: 10px;
+}
+
+.header input:hover {
+    text-decoration: underline;
+}
+
+#icon {
+    width: 30px;
+    cursor: pointer;
+    margin-top: 25px;
+    margin-left: 1075px;
+}
+
+.xox input {
+    position: absolute;
+    background-color: transparent;
+    border: none;
+    color: aliceblue;
+    font-family: 'Hedvig Letters Sans', sans-serif;
+    font-family: 'Inter', sans-serif;
+    font-family: 'Lato', sans-serif;
+    font-family: 'Nunito', sans-serif;
+    font-family: 'Nunito Sans', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Oswald', sans-serif;
+    font-family: 'Permanent Marker', cursive;
+    font-family: 'Pixelify Sans', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'PT Sans', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Saira Extra Condensed', sans-serif;
+    font-family: 'Single Day', cursive;
+    font-size: 23px;
+    margin-left: 885px;
+    margin-top: 10px;
+}
+
+.xox input:hover {
+    text-decoration: underline;
+}
+
+.pop input {
+   
+        position: absolute;
+        background-color: transparent;
+        border: none;
+        color: aliceblue;
+        font-family: 'Hedvig Letters Sans', sans-serif;
+        font-family: 'Inter', sans-serif;
+        font-family: 'Lato', sans-serif;
+        font-family: 'Nunito', sans-serif;
+        font-family: 'Nunito Sans', sans-serif;
+        font-family: 'Open Sans', sans-serif;
+        font-family: 'Oswald', sans-serif;
+        font-family: 'Permanent Marker', cursive;
+        font-family: 'Pixelify Sans', sans-serif;
+        font-family: 'Poppins', sans-serif;
+        font-family: 'PT Sans', sans-serif;
+        font-family: 'Roboto', sans-serif;
+        font-family: 'Saira Extra Condensed', sans-serif;
+        font-family: 'Single Day', cursive;
+        font-size: 23px;
+        margin-left: 985px;
+        margin-top: 10px;
+}
+
+.pop input:hover {
+    text-decoration: underline;
+}
+
+.arrow img{
+    position: absolute;
+    width: 125px;
+    margin-top: 760px;
+    margin-left: 835px;
+}
+
+.st {
+    position: absolute;
+    position: absolute;
+
+    color: aliceblue;
+    font-family: 'Hedvig Letters Sans', sans-serif;
+    font-family: 'Inter', sans-serif;
+    font-family: 'Lato', sans-serif;
+    font-family: 'Nunito', sans-serif;
+    font-family: 'Nunito Sans', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Oswald', sans-serif;
+    font-family: 'Permanent Marker', cursive;
+    font-family: 'Pixelify Sans', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'PT Sans', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Saira Extra Condensed', sans-serif;
+    font-family: 'Single Day', cursive;
+    margin-top: 680px;
+    margin-left: 845px;
+    font-size: 25px;
+}
+
+
+.tykik {
+    position: absolute;
+
+    color: rgb(0, 0, 0);
+    font-family: 'Hedvig Letters Sans', sans-serif;
+    font-family: 'Inter', sans-serif;
+    font-family: 'Lato', sans-serif;
+    font-family: 'Nunito', sans-serif;
+    font-family: 'Nunito Sans', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Oswald', sans-serif;
+    font-family: 'Permanent Marker', cursive;
+    font-family: 'Pixelify Sans', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'PT Sans', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Saira Extra Condensed', sans-serif;
+    font-family: 'Single Day', cursive;
+    margin-top: 1025px;
+    margin-left: 595px;
+    font-size: 80px;
+}
+
+.run {
+    position: absolute;
+    color: rgb(0, 0, 0);
+    font-family: 'Hedvig Letters Sans', sans-serif;
+    font-family: 'Inter', sans-serif;
+    font-family: 'Lato', sans-serif;
+    font-family: 'Nunito', sans-serif;
+    font-family: 'Nunito Sans', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Oswald', sans-serif;
+    font-family: 'Permanent Marker', cursive;
+    font-family: 'Pixelify Sans', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'PT Sans', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Saira Extra Condensed', sans-serif;
+    font-family: 'Single Day', cursive;
+    font-size: 40px;
+    margin-top: 1180px;
+    margin-left: 230px;
+}
+
+.teamu {
+    position: absolute;
+    color: rgb(0, 0, 0);
+    font-family: 'Hedvig Letters Sans', sans-serif;
+    font-family: 'Inter', sans-serif;
+    font-family: 'Lato', sans-serif;
+    font-family: 'Nunito', sans-serif;
+    font-family: 'Nunito Sans', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Oswald', sans-serif;
+    font-family: 'Permanent Marker', cursive;
+    font-family: 'Pixelify Sans', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'PT Sans', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Saira Extra Condensed', sans-serif;
+    font-family: 'Single Day', cursive;
+   font-size: 40px;
+   margin-top: 1228px;
+   margin-left: 230px;
+}
+
+.ziz {
+    position: absolute;
+    color: rgb(0, 0, 0);
+    font-family: 'Hedvig Letters Sans', sans-serif;
+    font-family: 'Inter', sans-serif;
+    font-family: 'Lato', sans-serif;
+    font-family: 'Nunito', sans-serif;
+    font-family: 'Nunito Sans', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Oswald', sans-serif;
+    font-family: 'Permanent Marker', cursive;
+    font-family: 'Pixelify Sans', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'PT Sans', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Saira Extra Condensed', sans-serif;
+    font-family: 'Single Day', cursive;
+    margin-top: 1273px;
+    margin-left: 400px;
+    font-size: 40px;
+
+}
+
+.zxz {
+    position: absolute;
+    color: rgb(0, 0, 0);
+    font-family: 'Hedvig Letters Sans', sans-serif;
+    font-family: 'Inter', sans-serif;
+    font-family: 'Lato', sans-serif;
+    font-family: 'Nunito', sans-serif;
+    font-family: 'Nunito Sans', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Oswald', sans-serif;
+    font-family: 'Permanent Marker', cursive;
+    font-family: 'Pixelify Sans', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'PT Sans', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Saira Extra Condensed', sans-serif;
+    font-family: 'Single Day', cursive;
+    margin-top: 1318px;
+    margin-left: 125px;
+    font-size: 40px;
+}
+
+.fgf {    position: absolute;
+    color: rgb(0, 0, 0);
+    font-family: 'Hedvig Letters Sans', sans-serif;
+    font-family: 'Inter', sans-serif;
+    font-family: 'Lato', sans-serif;
+    font-family: 'Nunito', sans-serif;
+    font-family: 'Nunito Sans', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Oswald', sans-serif;
+    font-family: 'Permanent Marker', cursive;
+    font-family: 'Pixelify Sans', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'PT Sans', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Saira Extra Condensed', sans-serif;
+    font-family: 'Single Day', cursive;
+    margin-top: 1363px;
+    margin-left: 125px;
+    font-size: 40px;
+    
+
+}
+
+.jkj {
+    position: absolute;
+    color: rgb(0, 0, 0);
+    font-family: 'Hedvig Letters Sans', sans-serif;
+    font-family: 'Inter', sans-serif;
+    font-family: 'Lato', sans-serif;
+    font-family: 'Nunito', sans-serif;
+    font-family: 'Nunito Sans', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Oswald', sans-serif;
+    font-family: 'Permanent Marker', cursive;
+    font-family: 'Pixelify Sans', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'PT Sans', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Saira Extra Condensed', sans-serif;
+    font-family: 'Single Day', cursive;
+    font-size: 40px;
+    margin-top: 1408px;
+    margin-left: 100px;
+ 
+  
+
+}
+
+.ghj {
+    position: absolute;
+    color: rgb(0, 0, 0);
+    font-family: 'Hedvig Letters Sans', sans-serif;
+    font-family: 'Inter', sans-serif;
+    font-family: 'Lato', sans-serif;
+    font-family: 'Nunito', sans-serif;
+    font-family: 'Nunito Sans', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Oswald', sans-serif;
+    font-family: 'Permanent Marker', cursive;
+    font-family: 'Pixelify Sans', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'PT Sans', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Saira Extra Condensed', sans-serif;
+    font-family: 'Single Day', cursive;
+    margin-top: 1453px;
+    margin-left: 340px;
+    font-size: 40px;
+  
+  
+}
+
+
+
+
+
+.boys {
+    position: absolute;
+
+    color: var(--secondary-color);
+    font-family: 'Hedvig Letters Sans', sans-serif;
+    font-family: 'Inter', sans-serif;
+    font-family: 'Lato', sans-serif;
+    font-family: 'Nunito', sans-serif;
+    font-family: 'Nunito Sans', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Oswald', sans-serif;
+    font-family: 'Permanent Marker', cursive;
+    font-family: 'Pixelify Sans', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'PT Sans', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Saira Extra Condensed', sans-serif;
+    font-family: 'Single Day', cursive;
+    margin-top: 1000px;
+    margin-left: 515px;
+    font-size: 55px;
+}
+
+.die {
+    position: absolute;
+    color: rgb(126, 126, 126);
+    font-family: 'Hedvig Letters Sans', sans-serif;
+    font-family: 'Inter', sans-serif;
+    font-family: 'Lato', sans-serif;
+    font-family: 'Nunito', sans-serif;
+    font-family: 'Nunito Sans', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Oswald', sans-serif;
+    font-family: 'Permanent Marker', cursive;
+    font-family: 'Pixelify Sans', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'PT Sans', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Saira Extra Condensed', sans-serif;
+    font-family: 'Single Day', cursive;
+    font-size: 35px;
+    margin-top: 1200px;
+    margin-left: 770px;
+}
+
+.house audio {
+    position: absolute;
+    background-color: transparent;
+    margin-top: 1300px;
+    width: 600px;
+    height: 30px;
+    margin-left: 600px;
+    
+}
+
+
+.rap {
+    position: absolute;
+    color: rgb(126, 126, 126);
+    font-family: 'Hedvig Letters Sans', sans-serif;
+    font-family: 'Inter', sans-serif;
+    font-family: 'Lato', sans-serif;
+    font-family: 'Nunito', sans-serif;
+    font-family: 'Nunito Sans', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Oswald', sans-serif;
+    font-family: 'Permanent Marker', cursive;
+    font-family: 'Pixelify Sans', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'PT Sans', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Saira Extra Condensed', sans-serif;
+    font-family: 'Single Day', cursive;
+    font-size: 35px;
+    margin-top: 1340px;
+    margin-left: 754px;
+}
+
+
+.werta audio {
+    position: absolute;
+    background-color: transparent;
+    margin-top: 1440px;
+    width: 600px;
+    height: 30px;
+    margin-left: 600px;
+}
+
+.xxx {
+    position: absolute;
+    color: rgb(126, 126, 126);
+    font-family: 'Hedvig Letters Sans', sans-serif;
+    font-family: 'Inter', sans-serif;
+    font-family: 'Lato', sans-serif;
+    font-family: 'Nunito', sans-serif;
+    font-family: 'Nunito Sans', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Oswald', sans-serif;
+    font-family: 'Permanent Marker', cursive;
+    font-family: 'Pixelify Sans', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'PT Sans', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Saira Extra Condensed', sans-serif;
+    font-family: 'Single Day', cursive;
+    font-size: 35px;
+    margin-top: 1480px;
+    margin-left: 745px;
+}
+
+.bruh audio {
+    position: absolute;
+    background-color: transparent;
+    margin-top: 1580px;
+    width: 600px;
+    height: 30px;
+    margin-left: 600px;
+}
+
+.pyramid {
+    position: absolute;
+    color: rgb(126, 126, 126);
+    font-family: 'Hedvig Letters Sans', sans-serif;
+    font-family: 'Inter', sans-serif;
+    font-family: 'Lato', sans-serif;
+    font-family: 'Nunito', sans-serif;
+    font-family: 'Nunito Sans', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Oswald', sans-serif;
+    font-family: 'Permanent Marker', cursive;
+    font-family: 'Pixelify Sans', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'PT Sans', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Saira Extra Condensed', sans-serif;
+    font-family: 'Single Day', cursive;
+    font-size: 35px;
+    margin-top: 1620px;
+    margin-left: 700px;
+}
+
+.Peril audio {
+    position: absolute;
+    background-color: transparent;
+    margin-top: 1720px;
+    width: 600px;
+    height: 30px;
+    margin-left: 600px;
+}
+
+.clip {
+    position: absolute;
+    color: rgb(126, 126, 126);
+    font-family: 'Hedvig Letters Sans', sans-serif;
+    font-family: 'Inter', sans-serif;
+    font-family: 'Lato', sans-serif;
+    font-family: 'Nunito', sans-serif;
+    font-family: 'Nunito Sans', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Oswald', sans-serif;
+    font-family: 'Permanent Marker', cursive;
+    font-family: 'Pixelify Sans', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'PT Sans', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Saira Extra Condensed', sans-serif;
+    font-family: 'Single Day', cursive;
+    font-size: 35px;
+    margin-top: 1760px;
+    margin-left: 690px;
+}
+
+.iop audio {
+    position: absolute;
+    background-color: transparent;
+    margin-top: 1860px;
+    width: 600px;
+    height: 30px;
+    margin-left: 600px;
+}
+
+.pipa img {
+    position: absolute;
+    width: 100px;
+    margin-top: 1778px;
+    margin-left: 350px;
+}
+
+.dead {
+    position: absolute;
+    color: var(--secondary-color);
+    font-family: 'Hedvig Letters Sans', sans-serif;
+    font-family: 'Inter', sans-serif;
+    font-family: 'Lato', sans-serif;
+    font-family: 'Nunito', sans-serif;
+    font-family: 'Nunito Sans', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Oswald', sans-serif;
+    font-family: 'Permanent Marker', cursive;
+    font-family: 'Pixelify Sans', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'PT Sans', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Saira Extra Condensed', sans-serif;
+    font-family: 'Single Day', cursive;
+    font-size: 60px;
+    margin-top: 1650px;
+    margin-left: 235px;
+}
+
+.kik img {
+    width: 60px;
+    position: absolute;
+    margin-top: 1720px;
+    margin-left: 170px;
+}
+
+.lkl {
+    position: absolute;
+    color: rgb(126, 126, 126);
+    font-family: 'Hedvig Letters Sans', sans-serif;
+    font-family: 'Inter', sans-serif;
+    font-family: 'Lato', sans-serif;
+    font-family: 'Nunito', sans-serif;
+    font-family: 'Nunito Sans', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Oswald', sans-serif;
+    font-family: 'Permanent Marker', cursive;
+    font-family: 'Pixelify Sans', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'PT Sans', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Saira Extra Condensed', sans-serif;
+    font-family: 'Single Day', cursive;
+    font-size: 35px;
+    margin-top: 1900px;
+    margin-left: 725px;
+}
+
+.zoz audio{
+    position: absolute;
+    background-color: transparent;
+    margin-top: 2000px;
+    width: 600px;
+    height: 30px;
+    margin-left: 600px;
+}
+
+.ghf img {
+    position: absolute;
+    margin-top: 1980px;
+    margin-left: 1107px;
+}
+
+.face {
+    position: absolute;
+    color: var(--secondary-color);
+    font-family: 'Hedvig Letters Sans', sans-serif;
+    font-family: 'Inter', sans-serif;
+    font-family: 'Lato', sans-serif;
+    font-family: 'Nunito', sans-serif;
+    font-family: 'Nunito Sans', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Oswald', sans-serif;
+    font-family: 'Permanent Marker', cursive;
+    font-family: 'Pixelify Sans', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'PT Sans', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Saira Extra Condensed', sans-serif;
+    font-family: 'Single Day', cursive;
+    font-size: 60px;
+    margin-top: 1845px;
+    margin-left: 1150px;
+
+}
+
+.xcv img {
+    width: 60px;
+    position: absolute;
+    margin-top: 1915px;
+    margin-left: 1500px;
+}
+
+.wake {
+    position: absolute;
+    color: rgb(126, 126, 126);
+    font-family: 'Hedvig Letters Sans', sans-serif;
+    font-family: 'Inter', sans-serif;
+    font-family: 'Lato', sans-serif;
+    font-family: 'Nunito', sans-serif;
+    font-family: 'Nunito Sans', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Oswald', sans-serif;
+    font-family: 'Permanent Marker', cursive;
+    font-family: 'Pixelify Sans', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'PT Sans', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Saira Extra Condensed', sans-serif;
+    font-family: 'Single Day', cursive;
+    font-size: 35px;
+    margin-left: 722px;
+    margin-top: 2020px;
+}
+
+.bnm audio {
+    position: absolute;
+    background-color: transparent;
+    margin-top: 2120px;
+    width: 500px;
+    height: 30px;
+    margin-left: 630px;
+}
+
+.fgh img {
+    position: absolute;
+    width: 120px;
+    margin-top: 2025px;
+    margin-left: 475px;
+}
+
+.owo {
+    position: absolute;
+    color: var(--secondary-color);
+    font-family: 'Hedvig Letters Sans', sans-serif;
+    font-family: 'Inter', sans-serif;
+    font-family: 'Lato', sans-serif;
+    font-family: 'Nunito', sans-serif;
+    font-family: 'Nunito Sans', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Oswald', sans-serif;
+    font-family: 'Permanent Marker', cursive;
+    font-family: 'Pixelify Sans', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'PT Sans', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Saira Extra Condensed', sans-serif;
+    font-family: 'Single Day', cursive;
+    font-size: 60px;
+    margin-top: 1900px;
+    margin-left: 300px;
+}
+
+.baldy img {
+    position: absolute;
+    width: 80px;
+    margin-top: 1960px;
+    margin-left: 215px;
+}
+
+.block {
+    width: 100%;
+    background: black;
+    position: absolute;
+    height: 900px;
+    left: 0%;
+    top: 0%;
+    margin-top: 2275px;
+}
+
+.qeq {
+    font-size: 80px;
+    position: absolute;
+    font-family: 'Hedvig Letters Sans', sans-serif;
+    font-family: 'Inter', sans-serif;
+    font-family: 'Lato', sans-serif;
+    font-family: 'Nunito', sans-serif;
+    font-family: 'Nunito Sans', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Oswald', sans-serif;
+    font-family: 'Permanent Marker', cursive;
+    font-family: 'Pixelify Sans', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'PT Sans', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Saira Extra Condensed', sans-serif;
+    font-family: 'Single Day', cursive;
+    color: aliceblue;
+    margin-top: 2300px;
+    margin-left: 665px;
+}
+.jkl iframe{
+    width: 1000px;
+    position: absolute;
+    margin-top: 2550px;
+    margin-left: 395px;
+    height: 500px;
+}
+
+
+
+
+
+.plm {
+    font-size: 80px;
+    position: absolute;
+    font-family: 'Hedvig Letters Sans', sans-serif;
+    font-family: 'Inter', sans-serif;
+    font-family: 'Lato', sans-serif;
+    font-family: 'Nunito', sans-serif;
+    font-family: 'Nunito Sans', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Oswald', sans-serif;
+    font-family: 'Permanent Marker', cursive;
+    font-family: 'Pixelify Sans', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'PT Sans', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Saira Extra Condensed', sans-serif;
+    font-family: 'Single Day', cursive;
+    color: rgb(0, 0, 0);
+    margin-top: 3200px;
+    margin-left: 450px;
+}
+
+.xia {
+    position: absolute;
+   border-radius: 20px;
+   background-color: transparent;
+   border: 4px solid rgb(255, 188, 5);
+   height: 600px;
+   width: 400px;
+   margin-top: 3400px;
+   margin-left: 200px;
+   transition: 0.2s;
+    
+}
+
+
+.xia:hover {
+    box-shadow: 30px 30px rgb(255, 188, 5) ;
+}
+.xia img {
+    width: 250px;
+    margin-left: 72px;
+    margin-top: 30px;
+
+}
+
+.xia p{
+    position: absolute;
+    font-family: 'Hedvig Letters Sans', sans-serif;
+    font-family: 'Inter', sans-serif;
+    font-family: 'Lato', sans-serif;
+    font-family: 'Nunito', sans-serif;
+    font-family: 'Nunito Sans', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Oswald', sans-serif;
+    font-family: 'Permanent Marker', cursive;
+    font-family: 'Pixelify Sans', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'PT Sans', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Saira Extra Condensed', sans-serif;
+    font-family: 'Single Day', cursive;
+    font-size: 60px;
+   margin-left: 25%;
+   color: rgb(0, 0, 0);
+   margin-top: 10px;
+}
+
+.pep {
+    position: absolute;
+    position: absolute;
+    border-radius: 20px;
+    background-color: transparent;
+    border: 4px solid rgb(255, 188, 5);
+    height: 600px;
+    width: 400px;
+    margin-top: 3400px;
+    margin-left: 700px;
+    transition: 0.2s;
+}
+
+.pep:hover {
+    box-shadow: 30px 30px rgb(255, 188, 5) ;
+}
+
+.pep img {
+    width: 400px;
+    margin-left:-20px;
+    margin-top: 30px;
+}
+
+.pep p {
+    position: absolute;
+    font-family: 'Hedvig Letters Sans', sans-serif;
+    font-family: 'Inter', sans-serif;
+    font-family: 'Lato', sans-serif;
+    font-family: 'Nunito', sans-serif;
+    font-family: 'Nunito Sans', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Oswald', sans-serif;
+    font-family: 'Permanent Marker', cursive;
+    font-family: 'Pixelify Sans', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'PT Sans', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Saira Extra Condensed', sans-serif;
+    font-family: 'Single Day', cursive;
+    font-size: 60px;
+   margin-left: 29%;
+   color: rgb(0, 0, 0);
+   margin-top: -2px;
+}
+
+.pkp {
+    position: absolute;
+    position: absolute;
+    border-radius: 20px;
+    background-color: transparent;
+    border: 4px solid rgb(255, 188, 5);
+    height: 600px;
+    width: 400px;
+   margin-left: 1200px;
+    transition: 0.2s;
+    margin-top: 3400px;
+}
+
+.pkp:hover {
+     box-shadow: 30px 30px rgb(255, 188, 5) ;
+}
+.pkp p{
+    position: absolute;
+    font-family: 'Hedvig Letters Sans', sans-serif;
+    font-family: 'Inter', sans-serif;
+    font-family: 'Lato', sans-serif;
+    font-family: 'Nunito', sans-serif;
+    font-family: 'Nunito Sans', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Oswald', sans-serif;
+    font-family: 'Permanent Marker', cursive;
+    font-family: 'Pixelify Sans', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'PT Sans', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Saira Extra Condensed', sans-serif;
+    font-family: 'Single Day', cursive;
+    font-size: 60px;
+   margin-left: 12%;
+   color: rgb(0, 0, 0);
+   margin-top: 10px;
+}
+
+.pkp img {
+    width: 350px;
+    margin-left:32px;
+    margin-top: 30px;
+}
+
+.dice {
+    position: absolute;
+    border-radius: 20px;
+    background-color: transparent;
+    border: 4px solid rgb(255, 188, 5);
+    height: 600px;
+    width: 400px;
+ 
+    transition: 0.2s;
+    margin-top: 4050px;
+    margin-left: 200px;
+
+}
+.dice:hover {
+    box-shadow: 30px 30px rgb(255, 188, 5) ; 
+}
+.dice p {
+    position: absolute;
+    font-family: 'Hedvig Letters Sans', sans-serif;
+    font-family: 'Inter', sans-serif;
+    font-family: 'Lato', sans-serif;
+    font-family: 'Nunito', sans-serif;
+    font-family: 'Nunito Sans', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Oswald', sans-serif;
+    font-family: 'Permanent Marker', cursive;
+    font-family: 'Pixelify Sans', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'PT Sans', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Saira Extra Condensed', sans-serif;
+    font-family: 'Single Day', cursive;
+    font-size: 60px;
+   margin-left: 20%;
+   color: rgb(0, 0, 0);
+   margin-top: 10px;
+}
+
+.dice img {
+    width: 275px;
+    margin-left:32px;
+    margin-top: 30px;
+}
+
+.grandpa {
+    position: absolute;
+    border-radius: 20px;
+    background-color: transparent;
+    border: 4px solid rgb(255, 188, 5);
+    height: 600px;
+    width: 400px;
+    transition: 0.2s;
+    margin-top: 4050px;
+    margin-left: 700px;
+
+}
+
+.grandpa:hover {
+    box-shadow: 30px 30px rgb(255, 188, 5) ; 
+}
+
+.grandpa p{
+    position: absolute;
+    font-family: 'Hedvig Letters Sans', sans-serif;
+    font-family: 'Inter', sans-serif;
+    font-family: 'Lato', sans-serif;
+    font-family: 'Nunito', sans-serif;
+    font-family: 'Nunito Sans', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Oswald', sans-serif;
+    font-family: 'Permanent Marker', cursive;
+    font-family: 'Pixelify Sans', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'PT Sans', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Saira Extra Condensed', sans-serif;
+    font-family: 'Single Day', cursive;
+    font-size: 60px;
+   margin-left: 18%;
+   color: rgb(0, 0, 0);
+   margin-top: -10px;
+}
+
+.grandpa img {
+    width: 375px;
+    margin-left:10px;
+    margin-top: 30px;
+}
+
+.pig {
+    position: absolute;
+    border-radius: 20px;
+    background-color: transparent;
+    border: 4px solid rgb(255, 188, 5);
+    height: 600px;
+    margin-top: 4050px;
+    width: 400px;
+    margin-left: 1200px;
+    transition: 0.2s;
+}
+
+.pig p{
+    position: absolute;
+    font-family: 'Hedvig Letters Sans', sans-serif;
+    font-family: 'Inter', sans-serif;
+    font-family: 'Lato', sans-serif;
+    font-family: 'Nunito', sans-serif;
+    font-family: 'Nunito Sans', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Oswald', sans-serif;
+    font-family: 'Permanent Marker', cursive;
+    font-family: 'Pixelify Sans', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'PT Sans', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Saira Extra Condensed', sans-serif;
+    font-family: 'Single Day', cursive;
+    font-size: 60px;
+   margin-left: 6%;
+   color: rgb(0, 0, 0);
+
+
+}
+
+.pig img {
+    width: 325px;
+    margin-left:10px;
+    margin-top: 55px;
+}
+
+.pig:hover {
+box-shadow: 30px 30px rgb(255, 188, 5) ;
+}
+
+.footer {
+    width: 100%;
+    position: absolute;
+    left: 0;
+    top: 0;
+    background: rgb(255, 188, 5);
+    height: 635px;
+    margin-top: 6150px;
+}
+
+.links {
+   
+        position: absolute;
+        font-family: 'Hedvig Letters Sans', sans-serif;
+        font-family: 'Inter', sans-serif;
+        font-family: 'Lato', sans-serif;
+        font-family: 'Nunito', sans-serif;
+        font-family: 'Nunito Sans', sans-serif;
+        font-family: 'Open Sans', sans-serif;
+        font-family: 'Oswald', sans-serif;
+        font-family: 'Permanent Marker', cursive;
+        font-family: 'Pixelify Sans', sans-serif;
+        font-family: 'Poppins', sans-serif;
+        font-family: 'PT Sans', sans-serif;
+        font-family: 'Roboto', sans-serif;
+        font-family: 'Saira Extra Condensed', sans-serif;
+        font-family: 'Single Day', cursive;
+        color: aliceblue;
+        font-size: 45px;
+        margin-left: 25%;
+        margin-top: 20px;
+}
+
+.and input{
+    position: absolute;
+    font-family: 'Hedvig Letters Sans', sans-serif;
+    font-family: 'Inter', sans-serif;
+    font-family: 'Lato', sans-serif;
+    font-family: 'Nunito', sans-serif;
+    font-family: 'Nunito Sans', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Oswald', sans-serif;
+    font-family: 'Permanent Marker', cursive;
+    font-family: 'Pixelify Sans', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'PT Sans', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Saira Extra Condensed', sans-serif;
+    font-family: 'Single Day', cursive;
+    color: aliceblue;
+    border: none;
+    background: transparent;
+    font-size: 30px;
+    margin-left: 25%;
+    margin-top: 130px;
+}
+
+
+
+.and input:hover{
+    text-decoration: underline;
+}
+
+.lp input{
+    position: absolute;
+    font-family: 'Hedvig Letters Sans', sans-serif;
+    font-family: 'Inter', sans-serif;
+    font-family: 'Lato', sans-serif;
+    font-family: 'Nunito', sans-serif;
+    font-family: 'Nunito Sans', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Oswald', sans-serif;
+    font-family: 'Permanent Marker', cursive;
+    font-family: 'Pixelify Sans', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'PT Sans', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Saira Extra Condensed', sans-serif;
+    font-family: 'Single Day', cursive;
+    color: aliceblue;
+    border: none;
+    background: transparent;
+    font-size: 30px;
+    margin-left: 25%;
+    margin-top: 168px;
+}
+
+
+.lp input:hover {
+    text-decoration: underline;
+}
+
+.mlp input{
+    position: absolute;
+    font-family: 'Hedvig Letters Sans', sans-serif;
+    font-family: 'Inter', sans-serif;
+    font-family: 'Lato', sans-serif;
+    font-family: 'Nunito', sans-serif;
+    font-family: 'Nunito Sans', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Oswald', sans-serif;
+    font-family: 'Permanent Marker', cursive;
+    font-family: 'Pixelify Sans', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'PT Sans', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Saira Extra Condensed', sans-serif;
+    font-family: 'Single Day', cursive;
+    color: aliceblue;
+    border: none;
+    background: transparent;
+    font-size: 30px;
+    margin-left: 25%;
+    margin-top: 206px;
+}
+
+.mlp input:hover {
+    text-decoration: underline;
+}
+
+.mnb {
+    width: 75%;
+    background-color: aliceblue;
+    height: 5px;
+    position: absolute;
+    margin-top: 500px;
+    border-radius: 20px;
+    margin-left: 11%;
+}
+
+.algo {
+    position: absolute;
+    font-family: 'Hedvig Letters Sans', sans-serif;
+    font-family: 'Inter', sans-serif;
+    font-family: 'Lato', sans-serif;
+    font-family: 'Nunito', sans-serif;
+    font-family: 'Nunito Sans', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Oswald', sans-serif;
+    font-family: 'Permanent Marker', cursive;
+    font-family: 'Pixelify Sans', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'PT Sans', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Saira Extra Condensed', sans-serif;
+    font-family: 'Single Day', cursive;
+    color: aliceblue;
+    font-size: 45px;
+    margin-left: 40%;
+    margin-top: 20px;
+}
+
+.poor input {
+    position: absolute;
+    font-family: 'Hedvig Letters Sans', sans-serif;
+    font-family: 'Inter', sans-serif;
+    font-family: 'Lato', sans-serif;
+    font-family: 'Nunito', sans-serif;
+    font-family: 'Nunito Sans', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Oswald', sans-serif;
+    font-family: 'Permanent Marker', cursive;
+    font-family: 'Pixelify Sans', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'PT Sans', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Saira Extra Condensed', sans-serif;
+    font-family: 'Single Day', cursive;
+    color: aliceblue;
+    border: none;
+    background: transparent;
+    font-size: 30px;
+    margin-left: 40%;
+    margin-top: 130px;
+
+
+}
+
+.poor input:hover{
+    text-decoration: underline;
+}
+
+
+
+.qerwa {
+    position: absolute;
+    font-family: 'Hedvig Letters Sans', sans-serif;
+    font-family: 'Inter', sans-serif;
+    font-family: 'Lato', sans-serif;
+    font-family: 'Nunito', sans-serif;
+    font-family: 'Nunito Sans', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Oswald', sans-serif;
+    font-family: 'Permanent Marker', cursive;
+    font-family: 'Pixelify Sans', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'PT Sans', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Saira Extra Condensed', sans-serif;
+    font-family: 'Single Day', cursive;
+    color: aliceblue;
+    font-size: 45px;
+    margin-left: 55%;
+    margin-top: 20px;
+}
+.You input {
+    position: absolute;
+    font-family: 'Hedvig Letters Sans', sans-serif;
+    font-family: 'Inter', sans-serif;
+    font-family: 'Lato', sans-serif;
+    font-family: 'Nunito', sans-serif;
+    font-family: 'Nunito Sans', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Oswald', sans-serif;
+    font-family: 'Permanent Marker', cursive;
+    font-family: 'Pixelify Sans', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'PT Sans', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Saira Extra Condensed', sans-serif;
+    font-family: 'Single Day', cursive;
+    color: aliceblue;
+    border: none;
+    background: transparent;
+    font-size: 30px;
+    margin-left: 59%;
+    margin-top: 130px;
+}
+
+.You input:hover {
+    text-decoration: underline;
+}
+
+
+
+.new input{
+    position: absolute;
+    font-family: 'Hedvig Letters Sans', sans-serif;
+    font-family: 'Inter', sans-serif;
+    font-family: 'Lato', sans-serif;
+    font-family: 'Nunito', sans-serif;
+    font-family: 'Nunito Sans', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Oswald', sans-serif;
+    font-family: 'Permanent Marker', cursive;
+    font-family: 'Pixelify Sans', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'PT Sans', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Saira Extra Condensed', sans-serif;
+    font-family: 'Single Day', cursive;
+    color: aliceblue;
+    border: none;
+    background: transparent;
+    font-size: 30px;
+    margin-left: 59%;
+    margin-top: 168px;
+    
+   
+}
+
+.new input:hover {
+    text-decoration: underline;
+}
+
+
+
+.cupew img {
+    position: absolute;
+width: 300px;
+margin-top: 5425px;
+margin-left: 740px;
+}
+
+
+
+
+:root {
+    --primary-color:#ffffff;
+    --secondary-color:#212121;
+    --third--color:rgb(255, 196, 0);
+}
+
+.dark_theme {
+    --primary-color:#ffffff;
+    --secondary-color:#212121;
+    --third--color:rgb(255, 196, 0);
+}
+
+
+
+.block_rt {
+    width: 100%;
+    background: rgb(255, 255, 255);
+    position: absolute;
+    height: 1000px;
+    left: 0%;
+    top: 0%;
+    margin-top: 4850px;
+}
+
+
+.block_rt p{
+    font-size: 80px;
+    position: absolute;
+    font-family: 'Hedvig Letters Sans', sans-serif;
+    font-family: 'Inter', sans-serif;
+    font-family: 'Lato', sans-serif;
+    font-family: 'Nunito', sans-serif;
+    font-family: 'Nunito Sans', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Oswald', sans-serif;
+    font-family: 'Permanent Marker', cursive;
+    font-family: 'Pixelify Sans', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'PT Sans', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Saira Extra Condensed', sans-serif;
+    font-family: 'Single Day', cursive;
+    color: rgb(0, 0, 0);
+    margin-top: 40px;
+    margin-left: 600px;
+}
+
+.container{
+    width: 70%;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+    position: relative;  
+    margin-left: 230px;  
+    margin-top: 150px;
+  }
+  
+  .image{
+    display: none;
+  }
+  
+  /* Next & previous buttons */
+  #prev{  
+    position: absolute;
+    top: 43%;
+    left: 0;
+    cursor: pointer;
+    padding: 16px;
+    color: white;
+    font-weight: bold;
+    font-size: 1rem;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+  }
+  
+  #next{
+    position: absolute;
+    top: 43%;
+    right: 0;
+    cursor: pointer;
+    padding: 16px;
+    color: #fff;
+    font-weight: bold;
+    font-size: 1rem;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+  }
+  
+  #prev:hover, #next:hover {
+    background: rgba(0, 0, 0, 0.5);
+  } 
+  
+  .dots{
+    text-align: center;
+    margin-top: 2%;
+  }
+  
+  .dot{
+    display: inline-block;
+    height: 15px;
+    width: 15px;
+    margin: 0 2px;
+    background-color: #bbb;
+    border-radius: 50%;
+    /* transition from one do to the next */
+    transition: background-color 0.6s ease;
+  }
+  
+  /* We create this class with JavaScript. It makes the current dot darker gray */
+  .active{
+    background-color: #717171;
+  } 
+  
+  /* create fade animation when switching between images */
+  .fade{
+  /* Animation support for different browsers */
+    -webkit-animation-name: fade;
+    -webkit-animation-duration: 1.5s;
+    animation-name: fade;
+    animation-duration: 1.5s;
+  }
+  
+  @-webkit-keyframes fade {
+      from {opacity: .4}
+      to {opacity: 1}
+  }
+  
+  @keyframes fade {
+      from {opacity: .4}
+      to {opacity: 1}
+  } 
+  
+  @media(max-width:768px){
+      .container{
+          width: 100%;
+      }
+  }
+  
+  
+  
