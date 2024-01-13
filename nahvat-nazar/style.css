@@ -1,0 +1,70 @@
+* {
+    background-image: url(https://abrakadabra.fun/uploads/posts/2022-01/1642422773_2-abrakadabra-fun-p-fon-assasin-krid-2.jpg);
+    background-attachment: fixed;
+}
+
+body {
+    padding: 0;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+.img1 {
+    display: block;
+    margin: auto;
+    width: 100%;
+}
+
+.nav {
+    color: black;
+    height: 100px;
+    background-color: none;
+    background-attachment: fixed;
+
+    position: sticky;
+    top: 0;
+}
+
+.ul-nav {
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    gap: 0 100px;
+    font-family: 'Segoe UI';
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.butnav1 {
+    padding: 0 2px 3px 2px;
+    border-radius: 8px;
+}
+
+.butnav2 {
+    padding: 0 2px 3px 2px;
+    border-radius: 8px;
+}
+
+.butnav3 {
+    padding: 0 2px 3px 2px;
+    border-radius: 8px;
+}
+
+.butnav4 {
+    padding: 0 2px 3px 2px;
+    border-radius: 8px;
+    
+}
+
+p {
+    color: white;
+    font-size: 20px;
+    font-family: 'Courier New';
+    scroll-behavior: smooth;
+}

@@ -1,0 +1,313 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&display=swap');
+
+/* @import url('https://fonts.googleapis.com/css2?family=Fjalla+One&display=swap'); */
+@import url('https://fonts.googleapis.com/css2?family=Alfa+Slab+One&display=swap');
+
+
+
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-family: Open Sans;
+  color: #fff;
+  background-color: #18181c;
+}
+
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+a {
+  margin: 0;
+}
+
+button {
+  color: #fff;
+  cursor: pointer;
+}
+
+a {
+  text-decoration: none;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  padding: 30px 0 30px;
+  max-width: 1440px;
+}
+
+nav {
+  display: flex;
+  align-items: center;
+  gap: 50px;
+  list-style-type: none;
+}
+
+.header-link {
+  text-align: center;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 140%;
+  text-decoration: none;
+  color:#e6e6ea;
+}
+
+.btn-sign-up {
+    text-decoration: none;
+  display: flex;
+  justify-content: space-between;
+  height: 32px;
+  padding: 4px 12px;
+  justify-content: center;
+  align-items: center;
+  gap: 12px;
+  border-radius: 10px;
+  background: #f7ff19;
+  color: #e6e6ea;
+  font-weight: 100;
+  text-align: center;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+}
+
+.img-people {
+    height: 32px;
+}
+
+/* .btn-sign-up:hover {
+  background-color: rgb(255, 193, 78);
+  rotate: 360deg;
+} */
+
+.logo {
+  width: 100px;
+  cursor: pointer;
+}
+
+/* main */
+
+main {
+  display: flex;
+  flex-direction: column;
+  max-width: 1440px;
+  padding-top: 80px;
+}
+
+/* section-hero */
+
+.section-hero {
+  display: flex;
+  align-items: center;
+  gap: 200px;
+  padding: 0px 48px;
+  max-width: 1440px;
+}
+
+.hero-about {
+  width: 510px;
+}
+
+.hero-about h1 {
+  margin-bottom: 20px;
+
+  font-size: 67px;
+  font-weight: 600;
+  line-height: 110%;
+  text-transform: capitalize;
+}
+
+.hero-about p {
+  margin-bottom: 30px;
+
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 160%;
+  text-transform: capitalize;
+}
+
+.hero-about button {
+  display: flex;
+  height: 68.13px;
+  padding: 0px 50px;
+  justify-content: center;
+  align-items: center;
+  gap: 12px;
+  margin-bottom: 30px;
+  border: none;
+  background: #F7FF19;
+  text-align: center;
+  font-family: Alfa Slab One;
+  font-size: 16px;
+  /* font-weight: 800; */
+  line-height: 30px; /* 22.4px */
+  cursor: pointer;
+  color: #000000;
+  letter-spacing: 3px;
+}
+
+.adittional-info {
+  display: flex;
+  gap: 30px;
+  color: white;
+}
+
+.card-info-value {
+  font-size: 28px;
+  font-weight: 700;
+  line-height: 140%;
+  text-transform: capitalize;
+}
+
+.card-info-title {
+  font-size: 23.99px;
+  font-weight: 400;
+  line-height: 160%;
+  text-transform: capitalize;
+}
+
+.hero-img-box {
+  flex: 1;
+}
+
+.hero-img-box img {
+  width: 800px;
+  transition: 1s;
+  padding: 64px 16px;
+}
+.hero-img-box:hover{
+  transition: 0.5s;
+  transform: scale(1.2);
+}
+
+
+/* .btn-sign-up {
+    text-decoration: none;
+  display: flex;
+  justify-content: space-between;
+  height: 32px;
+  padding: 4px 12px;
+  justify-content: center;
+  align-items: center;
+  gap: 12px;
+  border-radius: 10px;
+  background: #f7ff19;
+  color: #e6e6ea;
+  text-align: center;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+} */
+
+/* section-nft-cards */
+
+.section-nft-cards {
+  padding-top: 80px;
+}
+
+.section-nft-cards header h3 {
+  font-size: 34px;
+  font-weight: 800px;
+  line-height: 120%; /* 45.6px */
+  text-transform: capitalize;
+}
+
+.btn-artist-page {
+  height: 60px;
+  padding: 0px 50px;
+  border-radius: 20px;
+  border: 2px solid #a259ff;
+  color: #fff;
+  text-align: center;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 140%;
+  background-color: transparent;
+}
+
+.btn-artist-page:hover {
+  font-size: 18px;
+  border-top: 2px solid orange;
+  border-right: 2px solid blue;
+  border-bottom: 2px solid rgb(88, 250, 123);
+  border-left: 2px solid rgb(255, 0, 234);
+}
+
+.nft-cards {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.nft-card {
+  width: 330px;
+}
+
+.nft-card img {
+  display: flex;
+  width: 100%;
+}
+.nft-card:hover{
+  transition: 0.5s;
+  transform: scale(1.1);
+}
+
+.nft-info {
+  padding: 20px 30px 25px 30px;
+  border-radius: 0 0 20px 20px;
+}
+
+.nft-info h5 {
+  font-size: 22px;
+  font-weight: 600;
+  line-height: 140%; /* 30.8px */
+  text-transform: capitalize;
+}
+
+footer {
+  width: 100%;
+  height: auto;
+  margin: 0 auto;
+  text-align: center;
+  padding-top: 50px;
+  background-image: url("https://cdn2.unrealengine.com/fortnite-big-bang-battle-pass-footer-bg-1920x1080-d3ca78b9316f.jpg");
+}
+
+/* rgb(236, 237, 238) */
+
+/* footer a {
+  color: rgb(236, 237, 238);
+  font-size: 14px;
+  margin-left: 15px;
+  display: flex;
+  justify-content: space-between;
+} */
+.ft-up-links {
+  color: rgb(236, 237, 238);
+  font-size: 14px;
+  margin-left: 15px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.ft-dw-links {
+  color: rgb(236, 237, 238);
+  font-size: 14px;
+  margin-left: 15px;
+  display: flex;
+  justify-content: end;
+}
+
+footer a:hover{
+  transition: 0.5s;
+  color: black ;
+}
