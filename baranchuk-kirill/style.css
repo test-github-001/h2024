@@ -1,0 +1,166 @@
+.black {
+    background-color: rgb(19, 15, 15);
+    height: 80px;
+}
+
+.menu-right{
+    display: flex;
+    color: whitesmoke;
+    justify-content: flex-end;
+    list-style-type: none;
+    display: flex;
+    gap: 0 40px;
+    padding-top: 15px;
+}
+.menu-item{
+    display: flex;
+    justify-content: flex-end;
+    color: whitesmoke;
+}
+
+img{
+    width: 180px;
+    height: 80px;
+}
+
+.nav{
+    display: flex;
+    justify-content: flex-start;
+}
+
+.button{
+    text-decoration: none;
+    margin-top: 31px;
+    margin-left: 40px;
+    color: whitesmoke;
+}
+
+body{
+    background-color: rgb(35, 2, 41);
+}
+
+.div{
+    background-image:url("https://avatars.mds.yandex.net/i?id=577f99c0c292cceb4bf26b565b737b211b91af78-10782253-images-thumbs&n=13");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 200px;
+    width: 1500px;
+}
+
+.block{
+    width: 500px;
+    color: whitesmoke;
+    font-family: Verdana;
+    margin-left: 150px;
+    color: rgb(255, 244, 90);
+}
+
+.butt{
+    text-decoration: none;
+    color: rgb(255, 221, 0);
+    font-family: Verdana;
+}
+
+.title{
+    margin-left: 20px;
+    margin-top: 20px;
+    font-family: Verdana;
+}
+
+.text{
+    margin-left: 20px;
+    margin-top: 50px;
+    width: 600px;
+    font-family: Verdana;
+}
+
+.mine{
+    display: flex;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 500px;
+    height: 250px;
+    margin-left: 650px;
+}
+
+.name{
+    width: 500px;
+    height: 250px;
+    margin-top: 10px;
+    margin-left: 20px;
+}
+
+.text2{
+    width: 600px;
+    color: whitesmoke;
+    margin-left: 650px;
+    font-family: Verdana;
+}
+
+.color{
+    background-color: rgb(83, 30, 109);
+    width: 1260px;
+    margin-left: 120px;
+    height: 1300px;
+}
+
+.min{
+    background-color: rgb(173, 27, 161);
+    width: 1260px;
+    margin-left: 120px;
+    height: 300px;
+}
+
+.footer{
+    border-color: rgb(6, 11, 62);
+}
+
+.videa{
+    background-color: rgb(111, 28, 134);
+    width: 1260px;
+    margin-left: 120px;
+    color: rgb(201, 28, 198);
+    font-family: Verdana;
+    height: 350px;
+}
+
+.foot{
+    margin-left: 20px;
+}
+
+.top1{
+    color: coral;
+    margin-top: 150px;
+}
+
+.top2{
+    color: coral;
+    margin-top: 150px;
+}
+
+.conteiner{
+    display: flex;
+    justify-content: center;
+}
+
+.top3{
+    color: coral;
+    margin-top: 150px;
+}
+
+.top4{
+    color: coral;
+    margin-top: 150px;
+}
+
+.top5{
+    color: coral;
+    margin-top: 150px;
+}
+
+button{
+    background-color: rgb(111, 28, 134);
+    border: none;
+    color: rgb(201, 28, 198); 
+    font-family: Verdana;
+}
