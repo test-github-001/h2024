@@ -1,0 +1,48 @@
+h1 {
+  position: relative;
+  text-align: center;
+
+  font-size: 14px;
+  font-family: "Cormorant Garamond", serif;
+      font-family: Arial, sans-serif;
+    background-color: #111; 
+    color: #00f; 
+    box-shadow: inset 0 0 10px rgba(0, 0, 0, 0.5); 
+}
+p {
+  font-size: 89px;
+}
+
+  body {
+            margin: 0;
+            background-color: #111; 
+            color: #00f;
+            font-family: 'Arial', sans-serif;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+           animation: backgroundCycle 10s linear infinite;
+        }
+
+        @keyframes backgroundCycle {
+            0% {
+                background-color: #000; /* Чёрный цвет фона */
+            }
+            50% {
+                background-color: #696969; /* Тёмно-синий цвет фона */
+            }
+            100% {
+                background-color: #000; /* Чёрный цвет фона */
+            }
+        }
+
+#map-container {
+    text-align: center;
+}
+
+#map {
+    width: 80%;
+    height: 400px;
+    margin-top: 20px;
+    border: 1px solid #ccc;
+}

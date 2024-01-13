@@ -1,0 +1,271 @@
+@import url('https://fonts.googleapis.com/css2? Family= Brygada+1918:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700 & Family= Кодчасан: ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,300;1,400;1,500;1,600;1,700 & Family= Noto+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0 ,600; 0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900 & Family= VT323 & display=swap');
+
+body{
+    font-family: 'Brygada 1918', serif;
+    font-family: 'Kodchasan', sans-serif;
+    font-family: 'Noto Sans', sans-serif;
+    font-family: 'VT323', monospace;
+    color: #FFFFFF;
+    margin: 0px;
+}
+
+.HeaderLi{
+    padding: 0px 16px 0px 0px;
+}
+
+.HeaderUl{
+    display: flex;
+    list-style-type: none;
+    width: 40%;
+    height: 100%;
+}
+
+.HeaderOne{
+    background-image: url(https://www.minecraft.net/content/dam/games/minecraft/logos/down-arrow.png);
+    background-repeat: no-repeat;
+    background-position: 100% 50%;
+    background-size: 10px 6px;
+    display: block;
+    padding: 0 13px;
+    font-weight: 700;
+    font-size: .75rem;
+    justify-content: center;
+}
+
+.HeaderLiOne{
+    margin-right: 3px;
+    padding: 0 13px;
+    position: relative;
+    padding-left: 5px;
+    align-items: center;
+    display: flex;
+}
+
+.HeaderLiTwo{
+    margin-right: 3px;
+    font-size: .75rem;
+    padding: 0px 13px;
+    align-items: center;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+
+.HeadeerLiThree{
+    margin-right: 3px;
+    font-size: .75rem;
+    padding: 0px 13px;
+    color: #FFFFFF;
+    align-items: center;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    color: unset;
+}
+
+.HeaderLiFour{
+    margin-right: 3px;
+    font-size: .75rem;
+    padding: 0px 13px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+header{
+    background-color: #171615;
+    height: 83px;
+    color: #FFFFFF;
+    display: flex;
+    align-items: center;
+}
+
+a{
+    text-decoration: none;
+}
+
+.margin{
+    margin-right: 10px;
+}
+
+
+.MINECRAFT{
+    align-items: center;
+    max-width: 175px;
+    height: 40px;
+    display: inline-flex;
+    justify-content: center;
+    text-align: center;
+}
+
+li{
+    min-width: 79px;
+}
+
+.buttonGiveMain{
+    height: 10xp;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: var(--green-vanilla-01);
+    border: 0.125px solid black;
+    font-weight: 800;
+    font-size: 1.125rem;
+    color: var(--white-01);
+    justify-content: end;
+    padding: 1rem 1.5rem;
+    outline: 0;
+}
+
+.buttonGiveMainEnd{
+    display: flex;
+    background-color:#3b8526;
+    box-shadow: inset 0 4px #6bc349, inset 0 -4px #2a631c, 0 4px rgba(0,0,0,.25);
+    margin-left: 440px;
+}
+
+.introduction{
+    min-height: 600px;
+    background-color: #202020;
+}
+
+.introductionForBackgraund{
+    background-image: url(https://www.minecraft.net/content/dam/minecraft/home/home-hero-1200x600.jpg);
+    height: 600px;
+    width: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.listGame{
+    background-image: url(	https://www.minecraft.net/content/dam/minecraft/backgrounds/bg-wool-dark.png);
+    padding-bottom: 100px;
+    padding-top: 50px;
+}
+
+.span{
+    color: #FFFFFF;
+}
+
+.introductionForBackgraundUpBackgraund{
+    height: 250px;
+    margin-left: 200px!important;
+    width: 540px;
+    padding-top: 100px;
+}
+
+.introductionItMinBackgaraund{
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+.shit{
+    margin: 0px;
+}
+
+.ButtonShopMain{
+    font-size: 19.2px!important;
+    background-color:#3b8526;
+    box-shadow: inset 0 4px #6bc349, inset 0 -4px #2a631c, 0 4px rgba(0,0,0,.25);
+    line-height: 1.5;
+    padding: 1.38rem 3.25rem!important;
+    color: #fff;
+    margin-top: 20px;
+}
+
+.introductionForBackgraundUpBackgraundVot{
+    margin-bottom: 20px;
+}
+
+.rowgamesgallery{
+    margin-left: 190px; 
+    width: 75%;
+    padding-top: 75px;
+    background-color: #eee;
+    padding:75px 0px 100px;
+    text-align: center;
+}
+
+.col-xl-12{
+    -webkit-box-flex: 0;
+    -ms-flex: 0 0 100%;
+    flex: 0 0 100%;
+    max-width: 100%;
+}
+
+.h2{
+    margin-bottom: 50px;
+    color: #000000;
+}
+
+.gamesgaleri{
+    visibility: visible;
+    opacity: 1;
+}
+
+.sckip{
+    margin-top: 135px;
+    width: 50px;
+    height: 50.2px;
+    background: #3b8526;
+    -webkit-box-shadow: inset 0 4px #6bc349, inset 0 -4px #2a631c, 0 4px rgba(0,0,0,.25);
+    box-shadow: inset 0 4px #6bc349, inset 0 -4px #2a631c, 0 4px rgba(0,0,0,.25);
+    color: #fff;
+    text-shadow: 0 1px 0 #2a631c;
+}
+
+.gamesimg{
+    height: 338px;
+    -webkit-transition-duration: .5s;
+    transition-duration: .5s;
+    width: 220px;
+    -webkit-transition: -webkit-transform .5s ease-out;
+    transition: -webkit-transform .5s ease-out;
+    transition: transform .5s ease-out;
+    transition: transform .5s ease-out,-webkit-transform .5s ease-out;
+    -webkit-transform: scale(1);
+    -ms-transform: scale(1);
+    transform: scale(1);
+    border: 2px solid #eee;
+}
+
+.svgicon{
+    width: 1em;
+    height: 1em;
+}
+
+.gamesgalernotinvisibal{
+    display: flex;
+    visibility: visible;
+    opacity: 1;
+    padding: 0 80px 0 80px;
+}
+
+.listGamesGaleriMineckraftH3{
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 24px;
+    margin-bottom: 0!important;
+    color: #196D17;
+}
+
+.listGamesGaleriMineckraftP{
+    padding: 5px;
+    font-size: 14px;
+    line-height: 20px;
+    font-weight: 400;
+    margin-top: 0;
+    margin-bottom: 1.3rem;
+    color: #181818;
+}
+
+.listGamesGaleriMineckraft{
+    width: 220px;
+    margin-right: 60px;
+    padding-left: 5px;
+}
+
+.listGamesGaleri{
+    display: flex;
+}

@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Share+Tech+Mono&display=swap');
+
+*{
+    box-sizing: border-box;
+}
+
+body{
+    background-image: url(./images/spaceBg.png);
+    background-attachment: fixed;
+    margin: 0;
+}
+
+main{
+    display: flex;
+    flex-direction: row;
+    margin: auto;
+    padding: 20px;
+    height: 100%;
+    width: 960px;
+    background-color: black;
+    color: white;
+    font-family: 'Share Tech Mono', 'Share Tech Mono',Lato,LatoExtended,sans-serif;
+    font-size: 16px;
+    gap: 20px;
+}
+
+article{
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
