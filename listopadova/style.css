@@ -1,0 +1,265 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/* header  */
+
+.header {
+  width: 100%;
+  height: 760px;
+  background-color: black;
+}
+.registration {
+  width: 100%;
+  height: 30px;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.registration-item,
+.content-link {
+  color: #00ff7f;
+  font-family: tahoma;
+  font-size: 12px;
+  padding: 8px 12px;
+  font-weight: 300;
+  text-decoration: none;
+}
+.registration-item,
+.nav-block-link,
+.main-title,
+.block-title,
+.subscribe-title,
+.content-title {
+  text-transform: uppercase;
+}
+.registration-item:hover {
+  color: #fff;
+}
+.image-item {
+  width: 200px;
+  height: auto;
+  margin-top: 15px;
+  margin-left: 50px;
+}
+.nav {
+  width: 100%;
+  height: 70px;
+  display: flex;
+  justify-content: space-between;
+  background-color: #202020;
+}
+
+.nav-block {
+  width: 70%;
+  height: 50px;
+  margin-left: 50px;
+  display: flex;
+  justify-content: space-between;
+}
+.link-block {
+  margin: 0 0 0 20px;
+}
+.nav-block-link,
+.content-footer-link {
+  color: #fff;
+  font-family: tahoma;
+  font-size: 12px;
+  font-weight: 600;
+  text-decoration: none;
+}
+.nav-block-link::after {
+  content: '^';
+  margin: 5px;
+}
+.nav-block-link:hover {
+  color: #00ff7f;
+}
+.nav-btn,
+.block-btn {
+  padding: 8px 30px;
+  margin: 10px;
+  align-items: center;
+  border: none;
+  border-radius: 4px;
+  background: #3cb371;
+  color: white;
+  text-align: center;
+  font-size: 14px;
+  font-weight: 300;
+  cursor: pointer;
+  box-shadow: 5px 3px 3px #035e2c;
+}
+.nav-btn:hover {
+  background-color: #1d3c15;
+}
+
+.header-img {
+  width: 80%;
+  height: 600px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  background-color: black;
+  background-image: url('https://rg.ru/uploads/images/188/52/96/75F648B1-8115-4473-8E51-FC3ECECBA87B.png');
+  background-size: cover;
+}
+
+.header-img-block {
+  width: 500px;
+  height: auto;
+  padding-top: 100px;
+  padding-right: 450px;
+}
+
+.block-title {
+  color: white;
+  font-size: 36px;
+  font-family: tahoma;
+  font-weight: 500;
+  text-align: center;
+}
+
+.block-text {
+  color: white;
+  font-size: 20px;
+  padding-top: 10px;
+  text-indent: 15px;
+  text-align: justify;
+}
+
+.block-btn {
+  width: 300px;
+  height: 30px;
+  margin-top: 50px;
+}
+.block-btn:hover {
+  background-color: #202020;
+  border: 1px solid #fff;
+}
+
+/* main */
+
+.main {
+  width: 80%;
+  margin: 20px auto;
+  background-color: white;
+  display: flex;
+  height: 400px;
+}
+
+.main-img {
+  width: 450px;
+  height: 350px;
+  margin: 20px 0 0 20px;
+}
+
+.main-img-title {
+  width: 500px;
+  height: 250px;
+  margin: 10px 0 0 100px;
+}
+
+.main-title {
+  margin-top: 10px;
+  margin-bottom: 20px;
+  color: black;
+  font-size: 24px;
+  font-family: tahoma;
+  font-weight: 500;
+  text-align: center;
+}
+
+.main-text {
+  padding-bottom: 10px;
+  font-size: 15px;
+  font-family: tahoma;
+  font-weight: 300;
+  text-indent: 15px;
+  text-align: justify;
+}
+
+.main-link {
+  color: #035e2c;
+  padding-left: 20px;
+  font-size: 15px;
+  font-family: tahoma;
+  font-weight: 300;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+/* footer*/
+.footer {
+  width: 100%;
+  height: 500px;
+  background-color: #202020;
+}
+.subscribe {
+  width: 100%;
+  height: 120px;
+  background-color: #000000;
+}
+.subscribe-title,
+.content-title {
+  color: white;
+  font-size: 16px;
+  font-family: tahoma;
+  font-weight: 300;
+  text-align: center;
+  padding-top: 15px;
+}
+.networks {
+  width: 100%;
+  height: 50px;
+
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+.subscribe-img {
+  width: 30px;
+  height: 30px;
+  padding-top: 10px;
+  padding-right: 25px;
+  border-radius: 10%;
+}
+
+.content {
+  width: 80%;
+  height: 270px;
+  margin: 30px auto;
+  display: flex;
+  justify-content: space-around;
+}
+
+.content-item {
+  width: 200px;
+  height: 330px;
+  margin-left: 20px;
+  margin: 20px 20px 0 20px;
+}
+li {
+  line-height: 25px;
+  list-style-type: none;
+  padding: 20px 0;
+}
+.content-link:hover {
+  color: #fff;
+}
+.content-img {
+  width: 150px;
+  height: 150px;
+  padding-top: 20px;
+}
+.content-footer {
+  width: 100%;
+  height: 60px;
+  background-color: #434141;
+  display: flex;
+  justify-content: center;
+}
+.content-footer-img {
+  padding-top: 15px;
+}
